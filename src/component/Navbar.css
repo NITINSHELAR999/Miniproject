@@ -1,0 +1,87 @@
+.header {
+    height: 70px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: linear-gradient(#85706e, #2e2928);
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo {
+    height: inherit;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+  }
+  .logo_name {
+    font-size: larger;
+    justify-content: center;
+    align-items: baseline;
+    color: aliceblue;
+    font-family: sans-serif;
+    /* border-bottom: 1px solid white; */
+    margin-top: 30px;
+  }
+  .search {
+    height: inherit;
+    width: 500px;
+    
+    /* border: 1px solid yellow; */
+  }
+  .search_input {
+    height: 60px;
+    width: 100%;
+    background: #0e0585;
+    border: none;
+    border-bottom: 2px solid rgb(34, 34, 31);
+    color: yellow;
+    font-size: larger;
+  }
+  .input:focus {
+    border-bottom: yellow;
+    border: none;
+  }
+  .btn_cart {
+      background: rgb(19, 132, 184);
+      height: 50px;
+      width: 150px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      color: #bd1906;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .btn_qwt_state{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 500%;
+    background-color: #27a760;
+    font-size: x-large;
+    font-weight: bold;
+    justify-items: center;
+    color: rgb(62, 38, 165);
+  }
+  .btn_cart_checkout{
+    background: rgb(218, 34, 224);
+    height: 50px;
+    width: 210px;
+    margin: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #bd1906;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .btn_qwt_state_price{
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 12%;
+    background-color: #bd1906;
+    font-size: x-large;
+    font-weight: bold;
+    justify-items: center;
+    color: rgb(17, 218, 67);
+  }

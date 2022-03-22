@@ -1,0 +1,40 @@
+.App{
+  background: rgb(25, 3, 87);
+}
+.item_item{
+  height: 500px;
+  overflow: scroll;
+
+}
+.home_container{
+  background: rgb(108, 82, 184);
+}
+.text_input{
+  height: 30px;
+  width: 60px;
+  border: none;
+  background: rgb(103, 75, 158);
+   font-size: larger;
+   padding-left: 10px;
+
+}
+.qwt_set_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_qwt{
+  height: 30px;
+  width: 20px;
+  border: none;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: rgb(85, 75, 156);
+  
+}
+body{
+  margin-left: 5px;
+  margin-right: 5px;
+}
